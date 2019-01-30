@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="customer_customer_authenticated">
+		<observer instance="Ktpl\RememberMe\Observer\Customer\CustomerAuthenticated" name="ktpl_rememberme_observer_customer_customerauthenticated_customer_customer_authenticated"/>
+	</event>
+</config>
